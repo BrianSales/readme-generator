@@ -1,5 +1,5 @@
 // TODO: Include packages needed for this application
-    //libraries needed for assignment
+//libraries needed for assignment
 const inquirer = require("inquirer")
 const fs = require("fs")
 
@@ -58,14 +58,15 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) { }
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then(answers => {
-        const markdown = generateMarkdown(answers)
-    })
+        .then(answers => {
+            const markdown = generateMarkdown(answers)
+            writeToFile("example-readme.md", markdown)
+        })
 }
 
 // Function call to initialize app
