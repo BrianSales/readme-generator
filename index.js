@@ -2,13 +2,17 @@
 //libraries needed for assignment
 const inquirer = require("inquirer")
 const fs = require("fs")
+const { message } = require('statuses')
+
 
 // TODO: Create an array of questions for user input
 const questions = [
     {
         type: "input",
         name: "title",
-        message: "Enter your project title"
+        message: "Enter your project title",
+        validate: (value)=>{ if(value){return true} else {return 'i need a value to continue'}},
+        
     },
     {
         type: "input",
@@ -40,7 +44,7 @@ const questions = [
         name: "license",
         message: "Select your license",
         choices: [
-            "Apache", "GNU GPLv3", "MIT", "ISC", "Non"
+            "Apache", "GNU GPLv3", "MIT", "ISC", "None"
 
         ]
     },
