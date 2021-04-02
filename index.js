@@ -76,7 +76,7 @@ function writeToFile(fileName, data) {
         if (err){
             console.log(err)
         }
-        console.log("readme generated succesfully")
+        console.log("Readme Generated Succesfully")
     })
  }
 
