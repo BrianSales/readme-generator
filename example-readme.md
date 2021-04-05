@@ -1,4 +1,4 @@
-# GreenBay [![License](https://img.shields.io/static/v1?label=License&message=ISC&color=blue)](https://opensource.org/licenses/ISC)
+# Readme Gen [![License](https://img.shields.io/static/v1?label=License&message=ISC&color=blue)](https://opensource.org/licenses/ISC)
 
   # Table of Contents
   * [Project Description](#description)
@@ -10,19 +10,19 @@
   * [Questions](#questions)
   
   # Description
-  A brief history about the football team
+  allows for user to create a readme.md file
 
   # Installation
-  User can look up facts about the Greenbay Packers
+  Make sure you have node.js installed on your local machine.\ npm install all necessary libraries onto local machine
 
   # Usage
-  Fun informational tool
+  ANswer all questions being prompted
 
   # Contributions
-  User must click a button to display random fact about the greenbay packers
+  Please follow guideline listed here
 
   # Tests
-  Npm run test
+  No current tests at this time
 
   # License
   [Released under the ISC license](https://opensource.org/licenses/ISC)
